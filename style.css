@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+    vertical-align: middle;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+.logo{
+    padding-top: 15px;
+    display: flex;
+    margin-right:15px;
+}
+#titulo{
+    margin-left: 40px;
+    font-family: "Dancing Script", cursive;
+    color: mediumblue;
+    font-size: 55px;
+}
+.nav{
+    display: flex;
+    padding-top: 20px;
+    margin-right: 70px;
+    display:flex;
+    float:right;
+    background-color: lightgray;
+    width:100%;
+}
+.menu{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    text-decoration: none;
+    margin-left: 15px;
+
+}
