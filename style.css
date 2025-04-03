@@ -1,4 +1,5 @@
 .header{
+    display: flex;
     vertical-align: middle;
     background-color: lightblue;
     border-radius: 10px;
@@ -14,13 +15,12 @@
     color: mediumblue;
     font-size: 55px;
 }
-.nav{
-    padding-top: 20px;
-    margin-right: 70px;
-    display:flex;
-    float:right;
-    background-color: lightgray;
-    width:100%;
+#nav{
+    width: 100%;
+    justify-content: right;
+    display: flex;
+    margin-top: 0px;
+    background-color: #efefef;
 }
 .menu{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -28,4 +28,32 @@
     text-decoration: none;
     margin-left: 15px;
 
+}
+a {
+    padding: 10px;
+    text-decoration: none;
+    color: blue;
+    font-weight: bolder;
+
+}
+a:hover {
+    color: white;
+    background-color: blue;
+}
+form {
+    height: 200px;
+    border: 2px solid lightgray;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+input{
+    display: block;
+}
+footer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    position: fixed;
+    bottom: 0px;
+    background-color: #efefef;
+    width: 100%;
 }
