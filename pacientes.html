@@ -51,6 +51,24 @@
         color: white;
         background-color: blue;
     }
+    form {
+        height: 200px;
+        border: 2px solid lightgray;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    input{
+        display: block;
+    }
+    footer{
+        padding:"10px";
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 16px;
+        position: fixed;
+        bottom: 0px;
+        background-color: #efefef;
+        width: 100%;
+    }
     </style>
 </head>
 <body>
@@ -66,6 +84,15 @@
         <a href="#">Clientes</a>
      </div>
     <main class="container">
+        <form>
+            <label>Nome do Paciente:</label>
+            <input type="text">
+            <label>Tipo:</label>
+            <input type="text">
+        </form>
     </main>
+    <footer>
+        <p>Desenvolvido Por Handrik</p>
+    </footer>
 </body>
 </html>

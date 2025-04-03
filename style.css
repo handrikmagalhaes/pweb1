@@ -1,5 +1,4 @@
 .header{
-    display: flex;
     vertical-align: middle;
     background-color: lightblue;
     border-radius: 10px;
@@ -16,7 +15,6 @@
     font-size: 55px;
 }
 .nav{
-    display: flex;
     padding-top: 20px;
     margin-right: 70px;
     display:flex;
