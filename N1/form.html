@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auto Max - Formulário</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>Auto Max</h1>
+      <p>A sua melhor escolha em carros</p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="form.html">Formulário</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="form-section">
+    <h2>Preencha o formulário abaixo</h2>
+    <form action="#" method="POST">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="telefone">Telefone:</label>
+      <input type="tel" id="telefone" name="telefone" required>
+
+      <label for="carro">Modelo do Carro:</label>
+      <select id="carro" name="carro" required>
+        <option value="carro1">Carro 1</option>
+        <option value="carro2">Carro 2</option>
+        <option value="carro3">Carro 3</option>
+      </select>
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+      <button type="submit" class="btn">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Auto Max - Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>
